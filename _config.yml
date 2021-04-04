@@ -26,25 +26,25 @@ navbar-links:
   Contact: 
 
 
-#gems: ['jekyll/scholar']
+gems: ['jekyll/scholar']
 
-# scholar:
-#   last_name: Shinde
-#   first_name: [Ravindra]
+scholar:
+  last_name: Shinde
+  first_name: [Ravindra]
 
-#   style: assets/styles-distribution/american-physics-society.csl
-#   locale: en
+  style: assets/styles-distribution/american-physics-society.csl
+  locale: en
 
-#   sort_by: year
-#   order: descending
+  sort_by: year
+  order: descending
   
-#   source: /_bibliography/
-#   bibliography: Papers.bib
-#   repository: pdf
+  source: /_bibliography/
+  bibliography: Papers.bib
+  repository: pdf
 
-#   replace_strings: true
+  replace_strings: true
 
-#   query: "@*"
+  query: "@*"
 
 # --- Logo --- #
 
@@ -157,10 +157,10 @@ site-js:
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+google_analytics: "267881687"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-W6LXS7F"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -262,8 +262,9 @@ exclude:
   - docs/
 
 plugins:
-#  - jekyll-paginate
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-scholar
 
 
 
