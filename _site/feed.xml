@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Welcome to the Homepage of Dr. Ravindra Shinde</title>
+    
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Tech Tips</title>
+        <description>
+          Create a tag from a particular commit git - 
+          Create a tag from a particular commit git / github Create a tag from a particular commit and give some message to the tag git tag -a v1.0.0 fg3ab1b -m &quot;Tagged the first commit with v1.0.0&quot; Verify that the tag is created and all the previous tags git tag -n...
+        </description>
+        <pubDate>Sun, 04 Apr 2021 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2021-04-04-github-tags-and-versions/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-04-04-github-tags-and-versions/</guid>
+      </item>
+    
+      <item>
+        <title>GPU Hackathon training</title>
+        <description>
+          GPU-CUDA Hackathon with Julich Supercomputers - 
+          Some tips Generate the Nsight report using : nsys profile application.o open the report file in nsight systems on the local machine to visualize the report. CUDA fortran Compile instructions:: CUDA fortran is based on the PGI compiler There are two ways in which CUDA can be used in the...
+        </description>
+        <pubDate>Thu, 25 Mar 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2021-03-25-GPU-hackathon/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-25-GPU-hackathon/</guid>
+      </item>
+    
+      <item>
+        <title>Tech Tips</title>
+        <description>
+          CP2K wrap atoms back to the home unit cell in VMD - 
+          CP2K wrap atoms back to the home unit cell in VMD The following set of commands in the VMD console will wrap back the atoms in the neighboring unit cells back to the home unit cell. a, b, and c are the lattice constants in x,y and z directions. pbc...
+        </description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2020-06-16-VMD-wrap-atoms/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-06-16-VMD-wrap-atoms/</guid>
+      </item>
+    
+  </channel>
+</rss>
