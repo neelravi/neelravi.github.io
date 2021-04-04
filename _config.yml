@@ -211,6 +211,16 @@ date_format: "%B %-d, %Y"
 #fb_app_id: ""
 
 # --- You don't need to touch anything below here (but you can if you want) --- #
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Amsterdam"
