@@ -18,7 +18,7 @@ navbar-links:
   About Me: "aboutme"
   blogs: "blogs"
   Research: "research"
-  Publications: "publications"
+  #Publications: "publications"
   Academics : "academics"
   Learn:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -26,25 +26,25 @@ navbar-links:
   Contact: 
 
 
-gems: ['jekyll/scholar']
+#gems: ['jekyll/scholar']
 
-scholar:
-  last_name: Shinde
-  first_name: [Ravindra]
+# scholar:
+#   last_name: Shinde
+#   first_name: [Ravindra]
 
-  style: assets/styles-distribution/american-physics-society.csl
-  locale: en
+#   style: assets/styles-distribution/american-physics-society.csl
+#   locale: en
 
-  sort_by: year
-  order: descending
+#   sort_by: year
+#   order: descending
   
-  source: /_bibliography/
-  bibliography: Papers.bib
-  repository: pdf
+#   source: /_bibliography/
+#   bibliography: Papers.bib
+#   repository: pdf
 
-  replace_strings: true
+#   replace_strings: true
 
-  query: "@*"
+#   query: "@*"
 
 # --- Logo --- #
 
